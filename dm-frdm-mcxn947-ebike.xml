@@ -1,0 +1,23 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="dm-frdm-mcxn947-ebike" type="demo" format="projectfile" versionSchema="1.0.0" name="frdm mcxn947 ebike">
+    <display_title>
+        How to develop an electric bicycle dashboard design on MCXN947
+    </display_title>
+    <overview>
+        <![CDATA[This demo is an example of dashboard for electric bicycle. This demo is based on LVGL 8.3.10 and GUI Guider 1.6.0-GA. This demo can be used by customers to evaluate GUI performance of MCXN947. Here, this demo uses MCXN947 as target MCU and uses internal flash to store image source and font source. This demo supports various GUI widgets to show customer information such as meter panel, chart, label.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="mcx"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXN947"></hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="display"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="hmi"></category>
+    </categories>
+</data:item>

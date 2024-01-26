@@ -1,0 +1,121 @@
+NXP Software Content Register
+
+Package:                   dm-frdm-mcxn947-ebike
+Version:                   1.0
+Outgoing License:          LA_OPT_NXP_Software_License v53 December 2023 - Additional Distribution License granted, license in Section 2.3 applies
+License File:              LICENSE
+Description and comments:  This demo is a three-screen GUI demo based on LVGL, which can display the driving information of electric vehicles, including real-time speed, average speed, energy consumption, etc.
+Release Location:          https://github.com/nxp-appcodehub/dm-frdm-mcxn947-ebike
+Origin:                    NXP (BSD-3-Clause)
+			               NXP (MIT)
+                           NXP (Proprietary)
+                           CMSIS - ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/	
+			               freertos - Amazon (MIT) - https://aws.amazon.com/freertos/
+			               lvgl - Gabor Kiss-Vamosi (MIT) - https://github.com/lvgl/lvgl 
+			               lvgl_tlsf - Matthew Conte (BSD-3-Clause) - https://github.com/lvgl/lvgl
+                           lv_printf - Marco Paland (MIT) - https://github.com/lvgl/lvgl
+                           qrcode - Project Nayuki(MIT) - https://github.com/lvgl/lvgl
+                           png - Lode Vandevenne(MIT) - https://github.com/lvgl/lvgl
+                           jpg - ChaN(MIT) - https://github.com/lvgl/lvgl
+						   font - JulietaUla - https://github.com/JulietaUla/Montserrat
+
+CMSIS                      Name: CMSIS                             
+                           Version: 5.4.0                                  
+                           Outgoing License: Apache License 2.0              
+                           License File: CMSIS/LICENSE.txt                  
+                           Format: source code                               
+                           Description and comments: Vendor-independent hardware abstraction layer for microcontrollers that are based on Arm Cortex processors, distributed by ARM. cores                                        
+                           Release location: https://github.com/nxp-appcodehub/dm-frdm-mcxn947-ebike/tree/main/CMSIS/                                   
+                           Origin: ARM (Apache-2.0)                        
+                           https://github.com/ARM-software/CMSIS_5/releases/tag/5.6.0  
+
+freertos                   Name: freertos                                  
+                           Version: 10.5.1                            
+                           Outgoing License: MIT                             
+                           License File: freertos/freertos-kernel/MIT      
+                           Format: source code                               
+                           Description and comments: Open source RTOS kernel for small devices                                           
+                           Release location: https://github.com/nxp-appcodehub/dm-frdm-mcxn947-ebike/tree/main/freertos/freertos-kernel    
+                           Origin: Amazon (MIT) - https://aws.amazon.com/freertos/ 
+
+freertos_config            Name: freertos_config                                 
+                           Version: 10.5.1                            
+                           Outgoing License: MIT                             
+                           License File: source/MIT      
+                           Format: source code                               
+                           Description and comments: configuration file for RTOS kernel                                          
+                           Release location: https://github.com/nxp-appcodehub/dm-frdm-mcxn947-ebike/tree/main/source/    
+                           Origin: Amazon (MIT) - https://aws.amazon.com/freertos/
+
+lvgl                       Name: lvgl                                        
+                           Version: 8.3.10                                   
+                           Outgoing License: MIT                             
+                           License File: lvgl/lvgl/LICENCE.txt 
+                           Format: source code                               
+                           Description and comments: Light and Versatile Graphics Library (LVGL)                                            
+                           Release location: https://github.com/nxp-appcodehub/dm-frdm-mcxn947-ebike/tree/main/lvgl/lvgl                       
+                           Origin: Gabor Kiss-Vamosi - https://github.com/lvgl/lvgl      
+
+lvgl_tlsf                  Name: lvgl_tlsf                                       
+                           Version: 8.3.10                                   
+                           Outgoing License: BSD-3-Clause                               
+                           License File: BSD-3-Clause 
+                           Format: source code                               
+                           Description and comments: Light and Versatile Graphics Library (LVGL)                                            
+                           Release location: https://github.com/nxp-appcodehub/dm-frdm-mcxn947-ebike/tree/main/lvgl/lvgl/src/misc/lv_tlsf.h                                 
+                           Origin: Matthew Conte - https://github.com/lvgl/lvgl  
+
+lv_printf                  Name: lv_printf                                     
+                           Version: 8.3.10                                   
+                           Outgoing License: MIT                              
+                           License File: MIT 
+                           Format: source code                               
+                           Description and comments: LVGL print function                                          
+                           Release location: https://github.com/nxp-appcodehub/dm-frdm-mcxn947-ebike/tree/main/lvgl/lvgl/src/misc/lv_printf.h                   
+                           Origin: Marco Paland - https://github.com/lvgl/lvgl   
+
+qrcode                     Name: qrcode                                            
+                           Version: 8.3.10                                   
+                           Outgoing License: MIT                              
+                           License File: MIT 
+                           Format: source code                               
+                           Description and comments: QR Code function                                          
+                           Release location: https://github.com/nxp-appcodehub/dm-frdm-mcxn947-ebike/tree/main/lvgl/lvgl/src/extra/libs/qrcode/qrcodegen.c
+                                             https://github.com/nxp-appcodehub/dm-frdm-mcxn947-ebike/tree/main/lvgl/lvgl/src/extra/libs/qrcode/qrcodegen.h                    
+                           Origin: Project Nayuki - https://github.com/lvgl/lvgl
+
+png                        Name: png                                        
+                           Version: 8.3.10                                   
+                           Outgoing License: MIT                             
+                           License File: MIT 
+                           Format: source code                               
+                           Description and comments: png function                                          
+                           Release location: https://github.com/nxp-appcodehub/dm-frdm-mcxn947-ebike/tree/main/lvgl/lvgl/src/extra/libs/png/lodepng.c
+                                             https://github.com/nxp-appcodehub/dm-frdm-mcxn947-ebike/tree/main/lvgl/lvgl/src/extra/libs/png/lodepng.h            
+                           Origin: Lode Vandevenne - https://github.com/lvgl/lvgl
+
+jpg                        Name: jpg                                        
+                           Version: 8.3.10                                   
+                           Outgoing License: MIT                             
+                           License File: MIT 
+                           Format: source code                               
+                           Description and comments: jpg function                                          
+                           Release location: https://github.com/nxp-appcodehub/dm-frdm-mcxn947-ebike/tree/main/lvgl/lvgl/src/extra/libs/sjpg/tjpgd.c                                        
+                           Origin: ChaN - https://github.com/lvgl/lvgl
+
+
+font                       Name: font                                      
+                           Version: 7.222                                   
+                           Outgoing License: SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007                          
+                           License File: generated/guider_fonts/OFL.txt
+                           Format: source code                               
+                           Description and comments: montserratMedium font                                         
+                           Release location: https://github.com/nxp-appcodehub/dm-frdm-mcxn947-ebike/tree/main/generated/guider_fonts/lv_font_montserratMedium_12.c  
+                                             https://github.com/nxp-appcodehub/dm-frdm-mcxn947-ebike/tree/main/generated/guider_fonts/lv_font_montserratMedium_16.c 
+                                             https://github.com/nxp-appcodehub/dm-frdm-mcxn947-ebike/tree/main/generated/guider_fonts/lv_font_montserratMedium_20.c											 
+                           Origin: JulietaUla - https://github.com/JulietaUla/Montserrat
+
+
+
+
+  
